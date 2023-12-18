@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:text="@string/main"
+        android:color="@color/black"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/userDataBtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="35dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/userData"
+        android:onClick="btnUserData_Click"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sportsDataBtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/userDataBtn"
+        android:text="@string/sportsData"
+        android:textSize="35dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:onClick="btnSportsData_Click" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/startSportsBtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/sportsDataBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="btnStartSports_Click"
+        android:text="@string/startSports"
+        android:textSize="35dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signoutBtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/startSportsBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="btnLogout_Click"
+        android:text="@string/signout"
+        android:textSize="35dp" />
+</RelativeLayout>

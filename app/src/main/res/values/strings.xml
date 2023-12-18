@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TemiProject</string>
+    <string name="singin">登錄</string>
+    <string name="signout">登出</string>
+    <string name="register">註冊</string>
+    <string name="changeData">變更個人資料</string>
+    <string name="main">主畫面</string>
+    <string name="ID">身分證字號</string>
+    <string name="userData">用戶資料</string>
+    <string name="sportsData">運動資料</string>
+    <string name="startSports">開始運動</string>
+    <string name="back">返回</string>
+
+    <string-array name="gender">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>
